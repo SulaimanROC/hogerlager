@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(93, 88, 84);
+}
+
+h1, p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    width: 600px;
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+.wrapper {
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    background-color: gray;
+    margin-top: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 9px;
+}
+
+.main {
+    padding-bottom: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}

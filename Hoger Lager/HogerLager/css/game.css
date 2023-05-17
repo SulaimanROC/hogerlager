@@ -1,0 +1,84 @@
+@font-face {
+    font-family: UbuntuRegular;
+    src: url('../media/fonts/Ubuntu-Regular.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*::selection {
+    background: transparent;
+}
+
+.game {
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    padding-left: 20px;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.dice-container {
+    width: 150px;   
+    height: 450px;
+    padding-bottom: 30px;
+}
+
+.dice-container > div {
+    width: 150px;   
+    height: 150px;
+    padding-bottom: 10px;
+}
+
+.dice {
+    width: 150px;
+    
+}
+
+.roll-button {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    background-color: lightsteelblue;
+    text-align: center;
+    line-height: 150px;
+    font-size: 40px;
+}
+
+.roll-button:hover {
+    background-color: steelblue;
+}
+
+.roll-button:active {
+    background-color: darkslateblue;
+}
+
+
+.points-container {
+    float: right;
+    margin-right: 10px;
+}
+
+.points {
+    font-family: UbuntuRegular;
+    font-size: 30px;
+
+}
+
+.score-counter {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: 165px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 100px;
+    border-radius: 25px;
+    background-color: rgb(255, 50, 10);
+}

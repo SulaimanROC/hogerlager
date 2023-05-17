@@ -1,0 +1,1 @@
+Run de game op een server! Het kan bijv. de liveserver extensie zijn op VSCode. Anders loop je tegen bugs aan.
